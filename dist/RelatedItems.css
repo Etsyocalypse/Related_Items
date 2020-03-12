@@ -1,0 +1,62 @@
+#moreFromShopContainer {
+    display: "flex";
+    background-color: "#ffeee6";
+    border-color: "red";
+    border-style: "solid";
+    border-width: "5px";
+    max-width: "100%";
+    height: "65em";
+    max-height: "100%";
+}
+
+
+.shopLogo {
+    background-size: "container";
+    max-width: "100%";
+    max-height: "auto";
+
+}
+
+.shopLogo:hover {
+    cursor: pointer;
+}
+
+#shopName:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.seeAllSpan:hover {
+    cursor: pointer;
+}
+
+
+.seeAllSpan:hover::after {
+    /* padding: 11px;
+    animation-name: arrowMove;
+    animation-duration: 0.1s;
+    animation-timing-function: linear; */
+    transform: translateX(4px);
+    
+}
+
+.seeAllSpan::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220 0 12 24%22%3E%3Cpath fill%3D%22%23222222%22 d%3D%22M11.3,12.7L12,12l-0.7-0.7l-4-4c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4L8.2,11H1c-0.6,0-1,0.4-1,1s0.4,1,1,1h7.2l-2.3,2.3 c-0.2,0.2-0.3,0.4-0.3,0.7c0,0.6,0.4,1,1,1c0.3,0,0.5-0.1,0.7-0.3C7.3,16.7,11.3,12.7,11.3,12.7z%22%2F%3E%3C%2Fsvg%3E");
+    margin-left: 6px;
+    display: inline-block;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -8px;
+    content: "";
+    position: relative;
+    width: 12px;
+    top: 8px;
+    transition: transform 100ms ease-out;
+}
+
+.badge-shipping {
+    color: black;
+    background-color: rgba(187, 252, 204, 0.5);
+
+}

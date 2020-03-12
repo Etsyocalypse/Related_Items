@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "jest",
-    "start": "webpack -d --watch & live-server --port=6969 --watch=dist --open=dist",
+    "start": "webpack -d --watch & nodemon ./server/server.js",
     "start-oh": "webpack -d --watch",
     "start-server": "nodemon server.js"
   },
@@ -21,6 +21,9 @@
   "homepage": "http://www.github.com",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
     "axios": "^0.19.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",

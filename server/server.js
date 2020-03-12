@@ -1,12 +1,13 @@
 //Dependencies being brought in
 
 const express = require("express");
-const App = express();
+const app = express();
 const path = require('path');
+const port = 6969;
 
 //Middlewares being used
-App.use(express.static(path.join(__dirname, 'dist')));
-App.use(express.json())
+app.use(express.static(path.join(__dirname, '../dist')));
+app.use(express.json())
 
 //Route Handling
 
@@ -14,7 +15,7 @@ App.use(express.json())
 
 //Connection
 
-App.listen(6969, () => {
+app.listen(port, () => {
     console.log("Connected on port 6969!");
 });
 
