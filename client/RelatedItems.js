@@ -27,14 +27,15 @@ class RelatedItems extends React.Component {
     render() {
         return(
             <div className={"container-fluid"}>
-                <section className={"row min-vh-100"} id={"moreFromShopContainer"} style={{
-                    // display: "flex",
-                    // flexDirection: "column",
-                    // flexWrap: "wrap",
+                <section className={"row"} id={"moreFromShopContainer"} style={{
                     backgroundColor: "#ffeee6",
-                    borderColor: "red",
-                    borderStyle: "solid",
-                    borderWidth: "5px",
+                    paddingBottom: "48px",
+                    paddingLeft: "30px",
+                    paddingRight: "30px",
+                    paddingTop: "24px",
+                    maxWidth: "100%",
+                    // margin: "0 auto"
+                    marginBottom: "36px"
 
                 }}>
                 <div className={"col-md-3"}>
@@ -106,7 +107,7 @@ class RelatedItems extends React.Component {
 
                     <div className={"row mb-2 ml-2"}>
 
-                        <div className={"col"} /*style={{backgroundColor: "blue"}}*/>
+                        <div id={"imgBox"} className={"col"} /*style={{backgroundColor: "blue"}}*/>
                         <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/d10278/2164698354/il_340x270.2164698354_nv86.jpg?version=0"}></img>
                             <div className={"row"}>
                                 <div className={"col"}>
@@ -122,7 +123,7 @@ class RelatedItems extends React.Component {
                             </div>
                         </div>
 
-                        <div className={"col"}>
+                        <div id={"imgBox"} className={"col"}>
                         <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/be70a4/2211336710/il_340x270.2211336710_kjfi.jpg?version=0"}></img>
                         <div className={"row"}>
                                 <div className={"col"}>
@@ -138,7 +139,7 @@ class RelatedItems extends React.Component {
                             </div>
                         </div>
 
-                        <div className={"col"}>
+                        <div id={"imgBox"} className={"col"}>
                         <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/ef9caa/2208564228/il_340x270.2208564228_1uzv.jpg?version=0"}></img>
                         <div className={"row"}>
                                 <div className={"col"}>
@@ -157,7 +158,7 @@ class RelatedItems extends React.Component {
 
                     <div className={"row mb-2 ml-2"}>
 
-                    <div className={"col"} /*style={{backgroundColor: "blue"}}*/>
+                    <div id={"imgBox"} className={"col"}>
                         <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/d10278/2164698354/il_340x270.2164698354_nv86.jpg?version=0"}></img>
                         <div className={"row"}>
                                 <div className={"col"}>
@@ -173,7 +174,7 @@ class RelatedItems extends React.Component {
                             </div>
                         </div>
 
-                        <div className={"col"}>
+                        <div id={"imgBox"} className={"col"}>
                         <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/be70a4/2211336710/il_340x270.2211336710_kjfi.jpg?version=0"}></img>
                         <div className={"row"}>
                                 <div className={"col"}>
@@ -189,7 +190,7 @@ class RelatedItems extends React.Component {
                             </div>
                         </div>
 
-                        <div className={"col"}>
+                        <div id={"imgBox"} className={"col"}>
                         <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/ef9caa/2208564228/il_340x270.2208564228_1uzv.jpg?version=0"}></img>
                         <div className={"row"}>
                                 <div className={"col"}>
@@ -210,6 +211,184 @@ class RelatedItems extends React.Component {
 
                 </div>
                
+                </section>
+
+                <section className={"row"}>
+                    <div className={"row"}>
+                    <div id={"imgBox"} className={"col"}>
+                        <span className={"adOverlay"}></span>
+                        <span className={"adText"}>Ad</span>
+                        <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/ef9caa/2208564228/il_340x270.2208564228_1uzv.jpg?version=0"}></img>
+                        <div className={"row"}>
+                                <div className={"col"}>
+                                    <div className={"col"}>
+                                        <p style={{margin: "0"}}>{this.state.itemInformation.name}</p>
+                                        <span>$</span>
+                                        <span>{this.state.itemInformation.price}</span>
+                                            <div>
+                                            <p className={"badge badge-pill badge-shipping"}>FREE Shipping</p>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id={"imgBox"} className={"col"}>
+                        <span className={"adOverlay"}></span>
+                        <span className={"adText"}>Ad</span>
+                        <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/ef9caa/2208564228/il_340x270.2208564228_1uzv.jpg?version=0"}></img>
+                        <div className={"row"}>
+                                <div className={"col"}>
+                                    <div className={"col"}>
+                                        <p style={{margin: "0"}}>{this.state.itemInformation.name}</p>
+                                        <span>$</span>
+                                        <span>{this.state.itemInformation.price}</span>
+                                            <div>
+                                            <p className={"badge badge-pill badge-shipping"}>FREE Shipping</p>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id={"imgBox"} className={"col"}>
+                        <span className={"adOverlay"}></span>
+                        <span className={"adText"}>Ad</span>
+                        <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/ef9caa/2208564228/il_340x270.2208564228_1uzv.jpg?version=0"}></img>
+                        <div className={"row"}>
+                                <div className={"col"}>
+                                    <div className={"col"}>
+                                        <p style={{margin: "0"}}>{this.state.itemInformation.name}</p>
+                                        <span>$</span>
+                                        <span>{this.state.itemInformation.price}</span>
+                                            <div>
+                                            <p className={"badge badge-pill badge-shipping"}>FREE Shipping</p>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id={"imgBox"} className={"col"}>
+                        <span className={"adOverlay"}></span>
+                        <span className={"adText"}>Ad</span>
+                        <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/ef9caa/2208564228/il_340x270.2208564228_1uzv.jpg?version=0"}></img>
+                        <div className={"row"}>
+                                <div className={"col"}>
+                                    <div className={"col"}>
+                                        <p style={{margin: "0"}}>{this.state.itemInformation.name}</p>
+                                        <span>$</span>
+                                        <span>{this.state.itemInformation.price}</span>
+                                            <div>
+                                            <p className={"badge badge-pill badge-shipping"}>FREE Shipping</p>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id={"imgBox"} className={"col"}>
+                        <span className={"adOverlay"}></span>
+                        <span className={"adText"}>Ad</span>
+                        <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/ef9caa/2208564228/il_340x270.2208564228_1uzv.jpg?version=0"}></img>
+                        <div className={"row"}>
+                                <div className={"col"}>
+                                    <div className={"col"}>
+                                        <p style={{margin: "0"}}>{this.state.itemInformation.name}</p>
+                                        <span>$</span>
+                                        <span>{this.state.itemInformation.price}</span>
+                                            <div>
+                                            <p className={"badge badge-pill badge-shipping"}>FREE Shipping</p>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={"row"}>
+                    <div id={"imgBox"} className={"col"}>
+                        <span className={"adOverlay"}></span>
+                        <span className={"adText"}>Ad</span>
+                        <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/ef9caa/2208564228/il_340x270.2208564228_1uzv.jpg?version=0"}></img>
+                        <div className={"row"}>
+                                <div className={"col"}>
+                                    <div className={"col"}>
+                                        <p style={{margin: "0"}}>{this.state.itemInformation.name}</p>
+                                        <span>$</span>
+                                        <span>{this.state.itemInformation.price}</span>
+                                            <div>
+                                            <p className={"badge badge-pill badge-shipping"}>FREE Shipping</p>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id={"imgBox"} className={"col"}>
+                        <span className={"adOverlay"}></span>
+                        <span className={"adText"}>Ad</span>
+                        <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/ef9caa/2208564228/il_340x270.2208564228_1uzv.jpg?version=0"}></img>
+                        <div className={"row"}>
+                                <div className={"col"}>
+                                    <div className={"col"}>
+                                        <p style={{margin: "0"}}>{this.state.itemInformation.name}</p>
+                                        <span>$</span>
+                                        <span>{this.state.itemInformation.price}</span>
+                                            <div>
+                                            <p className={"badge badge-pill badge-shipping"}>FREE Shipping</p>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id={"imgBox"} className={"col"}>
+                        <span className={"adOverlay"}></span>
+                        <span className={"adText"}>Ad</span>
+                        <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/ef9caa/2208564228/il_340x270.2208564228_1uzv.jpg?version=0"}></img>
+                        <div className={"row"}>
+                                <div className={"col"}>
+                                    <div className={"col"}>
+                                        <p style={{margin: "0"}}>{this.state.itemInformation.name}</p>
+                                        <span>$</span>
+                                        <span>{this.state.itemInformation.price}</span>
+                                            <div>
+                                            <p className={"badge badge-pill badge-shipping"}>FREE Shipping</p>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id={"imgBox"} className={"col"}>
+                        <span className={"adOverlay"}></span>
+                        <span className={"adText"}>Ad</span>
+                        <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/ef9caa/2208564228/il_340x270.2208564228_1uzv.jpg?version=0"}></img>
+                        <div className={"row"}>
+                                <div className={"col"}>
+                                    <div className={"col"}>
+                                        <p style={{margin: "0"}}>{this.state.itemInformation.name}</p>
+                                        <span>$</span>
+                                        <span>{this.state.itemInformation.price}</span>
+                                            <div>
+                                            <p className={"badge badge-pill badge-shipping"}>FREE Shipping</p>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id={"imgBox"} className={"col"}>
+                        <span className={"adOverlay"}></span>
+                        <span className={"adText"}>Ad</span>
+                        <img className={"col my-3"} src={"https://i.etsystatic.com/20282382/d/il/ef9caa/2208564228/il_340x270.2208564228_1uzv.jpg?version=0"}></img>
+                        <span></span>
+                        <div className={"row"}>
+                                <div className={"col"}>
+                                    <div className={"col"}>
+                                        <p style={{margin: "0"}}>{this.state.itemInformation.name}</p>
+                                        <span>$</span>
+                                        <span>{this.state.itemInformation.price}</span>
+                                            <div>
+                                            <p className={"badge badge-pill badge-shipping"}>FREE Shipping</p>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
             

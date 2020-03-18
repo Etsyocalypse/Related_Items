@@ -60,3 +60,33 @@
     background-color: rgba(187, 252, 204, 0.5);
 
 }
+
+.adOverlay {
+    position: absolute; 
+    z-index: 10; 
+    top: 0;
+    margin-left: 18px; 
+    margin-top: 15px;
+    background-color: white;
+    width: 30px;
+    height: 22px;
+    border-radius: 45%;
+}
+
+.adText {
+    position: absolute; 
+    z-index: 10; 
+    top: 0;
+    margin-left: 25px; 
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+#imgBox:hover {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 300ms ease-out;
+    cursor: pointer;
+    
+}
