@@ -5,6 +5,10 @@ A team project which recreates the product description page of the popular websi
 # Component_Name: RelatedItems
 
 # Table of Contents
+- [Goals](#goals)
+- [Workflow](#workflow)
+- [Challenges](#challenges)
+- [Tech Stack](#tech-stack)
 
 # Goals
 Our goal was to take a popular website, in this case Etsy, and recreate the product description page as faithfully as we could both visually and functionally.  
