@@ -1,6 +1,8 @@
 
 # Etsypocalypse
+![](https://gfycat.com/blandcarefreeblackbear)
 A team project which recreates the product description page of the popular website Etsy. Our team of 5 engineers broke apart Etsy's product description page into different components and we each took responsibility for one.  My component was the "related items" and "sponsored ads" sections of the page.
+
 
 # Component_Name: RelatedItems
 
